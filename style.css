@@ -66,6 +66,15 @@
     width: 99%;
    }  
 
+.link-icon {
+      text-decoration: none;
+      color: rgb(168, 168, 93);
+   }
+ .link-fb {
+    text-decoration: none;
+    color: rgb(27, 27, 103);
+  }
+
   #footer {
     background-color: rgb(27, 27, 103);
     width: 100%;
