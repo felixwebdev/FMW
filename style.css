@@ -1,89 +1,88 @@
 * {
-    margin: 0px;
-    padding: 0;
-    box-sizing: border-box;
-    }
-  html {
-    height: 1120px;
-    background-color: antiquewhite;
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
   }
-   #head {
-    width: 100%;
-    height: 50px;
-    border: 2px solid black;
-    display:flex;
-    justify-content: left;
-    align-items: center;
-    background-color: rgb(27, 27, 103);
-    color: rgb(168, 168, 93);
-    position: fixed;
-   }
-   
-   #gioithieu {
-     display: block;
-   }
-   .tieude {
-     height: 40px;
-     width: 150px;
-     background-color: rgb(27, 27, 103);
-     border-top-right-radius: 10px ;
-     color:rgb(168, 168, 93) ;
-     display:flex;
-    justify-content: center;
-    align-items: center;
-   }
-    
-  .noidung {
-    width: 100%;
-    background-image: linear-gradient(to right,rgb(217, 217, 78), rgb(111, 111, 18));
-    color: rgb(12, 12, 25);
-    font-size: 25px;
-    padding-left: 10px;
-  }
-
-  #sothich {
-    display: block;
-  }
-  .sothich-list {
-    background-image: linear-gradient(to right,rgb(217, 217, 78), rgb(162, 162, 81));
-    width: 100%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .sothich-items {
-    margin-top: 32px;
-    float: left;
-    padding: 1.5rem;
-  } 
-  .sothich-img {
-    width: 200px;
-    border-radius: 0 20px 20px 20px;
-  }
+html {
+  height: 1120px;
+  background-image: linear-gradient(to right, #06beb6,#48b1bf);
+}
+ #head {
+  width: 100%;
+  height: 50px;
+  border: 2px solid black;
+  display:flex;
+  justify-content: left;
+  align-items: center;
+  background-color: #071952;
+  color: #97FEED;
+  position: fixed;
+ }
+ 
+ #gioithieu {
+   display: block;
+ }
+ .tieude {
+   height: 40px;
+   width: 150px;
+   background-color: #071952;
+   border-top-right-radius: 10px ;
+   color:#97FEED;
+   display:flex;
+  justify-content: center;
+  align-items: center;
+ }
   
-  .map {
-    width: 99%;
-   }  
+.noidung {
+  width: 100%;
+  background-image: linear-gradient(to right,#A1FFCE,#FAFFD1);
+  color: #071952;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+#sothich {
+  display: block;
+}
+.sothich-list {
+  background-image: linear-gradient(to right,#A1FFCE,#FAFFD1);
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+}
+
+.sothich-items {
+  margin-top: 32px;
+  float: left;
+  padding: 1.5rem;
+} 
+.sothich-img {
+  width: 200px;
+  border-radius: 0 20px 20px 20px;
+}
+
+.map {
+  width: 99%;
+ }  
 
 .link-icon {
-      text-decoration: none;
-      color: rgb(168, 168, 93);
-   }
- .link-fb {
     text-decoration: none;
-    color: rgb(27, 27, 103);
-  }
-
-  #footer {
-    background-color: rgb(27, 27, 103);
-    width: 100%;
-    height: 50px;
     color: rgb(168, 168, 93);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+ }
+.link-fb {
+  text-decoration: none;
+  color: rgb(27, 27, 103);
+}
+
+#footer {
+  background-color: #071952;
+  width: 100%;
+  height: 50px;
+  color: #97FEED;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
-  
